@@ -1,0 +1,15 @@
+.btnplusminus{
+    width: 100%;
+}
+
+.btnplusminus img{
+    cursor: pointer;
+    width: 2em;
+     height: 2em;
+}
+
+.btnplusminus h4{
+    margin-left:0.5em;
+         margin-right:0.5em;
+         margin-top: auto;
+}

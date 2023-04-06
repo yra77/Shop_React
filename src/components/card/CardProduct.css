@@ -1,0 +1,34 @@
+.cardProduct{
+    width: 18em;
+     border: none;
+     cursor: pointer;
+}
+
+.cardProduct .body{
+    text-align: center;
+}
+
+.cardProduct .subtitle{
+    min-height: 1em;
+    margin-bottom: 0.4em;
+}
+
+.cardProduct .subtitle .ml{
+    margin-left: auto;
+}
+
+.cardProduct .borderNone{
+    border: none;
+}
+
+.cardProduct .borderNone .color{
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 0.2em;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+}
+
+.cardProduct .borderNone small{
+    margin-right: 0.4em;
+}

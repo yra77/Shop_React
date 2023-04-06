@@ -1,0 +1,25 @@
+
+.underHeader{
+    display:flex; 
+    justify-content:center;
+    margin-top: 0.5em;
+}
+
+.underHeader img{
+    border-radius: 1em;
+    margin-right: 0.5em;
+    border: 0.15em solid rgba(4, 157, 196, 0.473);
+    cursor: pointer;
+    width: 4em;
+    height: 2.2em; 
+}
+
+.underHeader img:hover{
+    border: 0.2em solid rgba(133, 195, 245, 0.658);
+    scale: 1.05;
+}
+
+.underHeader img:active{
+    border: 0.25em solid rgba(133, 195, 245, 0.658);
+    scale: 1.2;
+}

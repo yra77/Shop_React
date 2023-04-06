@@ -1,0 +1,89 @@
+/* Auth */
+.authContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 2em;
+}
+
+.authContainer h4 {
+    margin-top: 25%;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+.formCenter {
+    margin-top: 35%;
+    width: 22em;
+    padding: 1em;
+    grid-column: 2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.formCenter button {
+    width: 100%;
+    font-weight: 600;
+}
+
+.formCenter small {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.authContainer a {
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.authContainer .registrLink {
+    margin-top: 4em;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.authContainer .google {
+    grid-column: 2;
+    grid-row: 2;
+    color: rgba(75, 77, 77, 0.753);
+}
+
+.authContainer .google img {
+    width: 1.3em;
+    height: 1.3em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.authContainer a:hover {
+    font-weight: 400;
+}
+
+.authContainer a span {
+    font-style: italic;
+    color:  rgba(75, 77, 77, 0.753);;
+}
+
+/* password eye */
+.passGroup {
+    position: relative;
+}
+
+.passGroup img {
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    float: right;
+}

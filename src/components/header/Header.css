@@ -1,0 +1,125 @@
+.headerContainer {
+    margin-left: -0em;
+    margin-right: -0em;
+}
+
+.headerMenu{
+  margin-left: 20%;
+}
+
+.headerMenu a{
+  margin-right: 1em;
+  font-size: 24px;
+  }
+
+.headerContainer a{
+    text-decoration: none;
+    margin-left: 0.5em;
+    color: rgb(150, 148, 148);
+    font-size: 18px;
+}
+
+.headerForm button {
+    margin-left: 0.3em;
+    color: gray;
+}
+
+.headerForm {
+    margin-left: 0.3em;
+}
+
+.headerContainer .login {
+    font-weight: 500;
+    color: gray;
+}
+
+.headerContainer .logout {
+    font-weight: 600;
+    color: brown;
+}
+
+/*filter*/
+.filter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.filter h6 {
+    margin: 0.5em 0em .5em 0em;
+    color: gray;
+}
+
+.filter small {
+    margin-right: auto;
+    margin-top: 1em;
+    color: lightgray;
+}
+
+.filterBtn1 {
+    margin-right: 0.2em;
+}
+
+.filterBtn2 {
+    font-size: 16px;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    flex-grow: 0;
+    vertical-align: middle;
+}
+
+.filterBtnGroupe {
+    flex-wrap: wrap;
+    width: 12em;
+}
+/*end filter*/
+
+/* Cart button*/
+.iconCartBtn{
+    background-color: rgba(5, 177, 105, 0.199);
+    border: 2px solid rgb(6, 170, 170);
+    width: 2.4em;
+    height: 2.4em;
+    z-index: 9998;
+    position: fixed;
+    top: 7em;
+    right: 0;
+    bottom: 0;
+    left: 1em;
+}
+
+.iconCartBtn img{
+    margin: -4px 0 0 -4px;
+}
+/*END cart button*/
+
+/* button scroll to top*/
+.buttonScrollTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000;
+  margin-left: auto;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  border: 2px solid lightgray;
+  background-color: transparent;
+  box-shadow: 0 5px 10px #ccc;
+  cursor: pointer;
+}
+
+.buttonScrollTop:hover{
+    background-color: lightgray;
+}
+
+.buttonScrollTop:active{
+    background-color: lightgray;
+}
+/* END button scroll to top*/
+
+.currentPageMarker{
+    color: lightblue;
+    font-weight: 600;
+    scale: 1.1;
+}

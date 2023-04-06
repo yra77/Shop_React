@@ -1,0 +1,28 @@
+.modal {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+    /* overflow-y: scroll !important;
+    max-height: 90%; */
+    padding: 1em;
+    background: white;
+    border-radius: 1em;
+    width: 20em;
+    min-height: 5em;
+    overflow-wrap: break-word;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
